@@ -1,6 +1,8 @@
-import axios from 'axios'
+import axios from 'axios';
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://e-commerce-backend-l4s0.onrender.com/api',
   withCredentials: true
-})
-export default api
+});
+
+export default api;
