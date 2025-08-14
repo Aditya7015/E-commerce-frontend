@@ -9,7 +9,7 @@ export default function Header(){
     <div className="row" style={{justifyContent:'space-between', width:'100%'}}>
       <div className="brand">
         <div className="brand-badge"></div>
-        <Link to="/"><span>Aurora Shop</span></Link>
+        <Link to="/"><span>Gadzet Shop</span></Link>
         <span className="badge">MERN</span>
       </div>
       <nav className="nav">
